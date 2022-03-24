@@ -85,4 +85,5 @@ final class SportCar: AllCar {
 let lambo = SportCar(colour: "red", age: 1, isConditioner: true, engine: sportModeEngine.off)
 print(lambo.someMetod())
 lambo.engine = sportModeEngine.on
+skania.body = statusLoadingBody.loading
 
